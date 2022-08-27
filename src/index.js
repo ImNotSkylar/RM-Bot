@@ -37,7 +37,6 @@ client.once("ready", async () => {
     console.log(`${client.user.tag} | ${client.user.id} is online`)
     client.user.setActivity(`Royal Marines`, { type: ActivityType.Watching });
     console.log(`\nServers[${client.guilds.cache.size.toLocaleString()}]: \n---------\n${client.guilds.cache.map((guild) => `${guild.id + "\t" + guild.name + "   |   " + guild.memberCount.toLocaleString()} mem\'s`).join("\n")}`);
-
 })
 
 client.on("messageCreate", async (message) => {
