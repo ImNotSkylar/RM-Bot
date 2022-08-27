@@ -1,6 +1,6 @@
 const squadrons = [
 	{
-		name: "3 Commando Brigade", 
+		name: "3 Commando Brigade",
 		description: "3 Commando Brigade",
 		emoji: {
 			animated: false,
@@ -10,7 +10,7 @@ const squadrons = [
 		role: "1013107226912772238"
 	},
 	{
-		name: "30 Commando", 
+		name: "30 Commando",
 		description: "30 Commando",
 		emoji: {
 			animated: false,
@@ -20,7 +20,7 @@ const squadrons = [
 		role: "1013106212226732084"
 	},
 	{
-		name: "40 Commando", 
+		name: "40 Commando",
 		description: "40 Commando",
 		emoji: {
 			animated: false,
@@ -31,7 +31,7 @@ const squadrons = [
 		role: "1013106293248110652"
 	},
 	{
-		name: "42 Commando", 
+		name: "42 Commando",
 		description: "42 Commando",
 		emoji: {
 			animated: false,
@@ -40,8 +40,8 @@ const squadrons = [
 		},
 		role: "1013106428820590593"
 	},
-    {
-		name: "43 Commando", 
+	{
+		name: "43 Commando",
 		description: "43 Commando",
 		emoji: {
 			animated: false,
@@ -50,8 +50,8 @@ const squadrons = [
 		},
 		role: "1013106509296713848"
 	},
-    {
-		name: "45 Commando", 
+	{
+		name: "45 Commando",
 		description: "45 Commando",
 		emoji: {
 			animated: false,
@@ -60,8 +60,8 @@ const squadrons = [
 		},
 		role: "1013106587876986900"
 	},
-    {
-		name: "47 Commando", 
+	{
+		name: "47 Commando",
 		description: "47 Commando",
 		emoji: {
 			animated: false,
@@ -70,8 +70,8 @@ const squadrons = [
 		},
 		role: "1013106656386748499"
 	},
-    {
-		name: "Commando Training Centre", 
+	{
+		name: "Commando Training Centre",
 		description: "Commando Training Centre",
 		emoji: {
 			animated: false,
@@ -80,8 +80,8 @@ const squadrons = [
 		},
 		role: "1013106720354078720"
 	},
-    {
-		name: "Special Boat Service", 
+	{
+		name: "Special Boat Service",
 		description: "Special Boat Service",
 		emoji: {
 			animated: false,
@@ -90,8 +90,8 @@ const squadrons = [
 		},
 		role: "1013106851438678086"
 	},
-    {
-		name: "Commando Helicopter Force", 
+	{
+		name: "Commando Helicopter Force",
 		description: "Commando Helicopter Force",
 		emoji: {
 			animated: false,
@@ -101,7 +101,7 @@ const squadrons = [
 		role: "1013106774150230016"
 	},
 	{
-		name: "Development", 
+		name: "Development",
 		description: "Development",
 		emoji: {
 			animated: false,
