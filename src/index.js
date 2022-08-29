@@ -49,7 +49,7 @@ client.on("messageCreate", async (message) => {
             command = args.shift().toLowerCase();
 
         if (command === 'promote') {
-            cosnsole.log(`${message.author.tag} (${message.author.id}) ran the promote command.`);
+            console.log(`${message.author.tag} (${message.author.id}) ran the promote command.`);
 
             const member = client.users.cache.get(args[0]) || message.mentions.users.first()
 
@@ -72,7 +72,7 @@ client.on("messageCreate", async (message) => {
         }
 
         if (command === 'demote') {
-            cosnsole.log(`${message.author.tag} (${message.author.id}) ran the demote command.`);
+            console.log(`${message.author.tag} (${message.author.id}) ran the demote command.`);
 
             const member = client.users.cache.get(args[0]) || message.mentions.users.first()
 
@@ -96,7 +96,7 @@ client.on("messageCreate", async (message) => {
         }
 
         if (command === "tickets") {
-            cosnsole.log(`${message.author.tag} (${message.author.id}) ran the tickets command.`);
+            console.log(`${message.author.tag} (${message.author.id}) ran the tickets command.`);
 
             const embed = new EmbedBuilder()
                 .setTitle("Open a Ticket")
